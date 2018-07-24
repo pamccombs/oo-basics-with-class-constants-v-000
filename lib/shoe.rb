@@ -14,9 +14,9 @@ class Shoe
     #BRANDS.uniq{|b| @unique << b}
     #@unique
     
-    
+    binding.pry
   end
-  binding.pry
+  
 
   def cobble
     self.condition = "new"
