@@ -16,7 +16,7 @@ class Shoe
     
     
   end
-  
+  binding.pry
 
   def cobble
     self.condition = "new"
