@@ -1,16 +1,17 @@
 require 'pry'
 
 class Shoe
-  attr_accessor :color, :size, :material, :condition
+  attr_accessor :color, :size, :material, :condition :unique
   attr_reader :brand
   
   BRANDS = []
+  
 
   def initialize(brand)
     
     @brand = brand
     BRANDS << brand
-    BRANDS.uniq{|b| BRANDS << b}
+    BRANDS.uniq{|b| @unique << b}
     #binding.pry
     
   end
