@@ -14,7 +14,7 @@ class Shoe
     BRANDS.uniq{|b| BRANDS << b}
     
     
-    binding.pry
+    #binding.pry
   end
   
 
