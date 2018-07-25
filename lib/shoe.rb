@@ -10,8 +10,10 @@ class Shoe
   def initialize(brand)
     
     @brand = brand
+    
+    BRANDS.uniq{|b| BRANDS << b}
+    
     BRANDS << brand
-    BRANDS.uniq{|b| b}
     #@unique
     
     binding.pry
