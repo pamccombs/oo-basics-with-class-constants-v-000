@@ -11,7 +11,7 @@ class Shoe
     
     @brand = brand
     BRANDS << brand
-    #BRANDS.uniq{|b| @unique << b}
+    BRANDS.uniq{|b| b}
     #@unique
     
     binding.pry
