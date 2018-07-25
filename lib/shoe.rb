@@ -16,7 +16,7 @@ class Shoe
         BRANDS << b
       else 
       end
-    
+    end
     
     #binding.pry
   end
