@@ -21,7 +21,7 @@ class Shoe
   end
   
   def brand
-    @brand
+    #@brand
     BRANDS.uniq
   end
   
