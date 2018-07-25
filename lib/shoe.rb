@@ -11,7 +11,11 @@ class Shoe
     
     @brand = brand
     
+    BRANDS.each do |b|
+      if @brand != brand
     BRANDS << @brand
+    
+    
     
     #binding.pry
   end
