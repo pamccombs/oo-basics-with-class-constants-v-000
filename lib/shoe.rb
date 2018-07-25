@@ -10,14 +10,7 @@ class Shoe
   def initialize(brand)
     
     @brand = brand
-    
-    BRANDS.each do |b|
-      if @brand != brand || @brand == nil
-    BRANDS << brand
-  else 
-end
-end
-    #binding.pry
+    BRANDS = brand
   end
   
 
