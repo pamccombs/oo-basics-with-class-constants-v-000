@@ -11,7 +11,7 @@ class Shoe
     
     @brand = brand
     
-    BRANDS.uniq do |b| 
+    BRANDS.each do |b| 
       if BRANDS.first != b
         BRANDS << b
       else 
