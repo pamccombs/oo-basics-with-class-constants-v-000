@@ -11,7 +11,11 @@ class Shoe
     
     @brand = brand
     
-    BRANDS.uniq{|b| BRANDS << b.brand}
+    BRANDS.uniq do |b| 
+      if BRANDS.first != b
+        BRANDS << b
+      else 
+      end
     
     
     #binding.pry
