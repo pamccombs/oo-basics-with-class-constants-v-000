@@ -2,7 +2,7 @@ require 'pry'
 
 class Shoe
   attr_accessor :color, :size, :material, :condition, :unique
-  attr_reader :brand
+  attr_reader 
   
   BRANDS = []
   
@@ -17,10 +17,12 @@ class Shoe
  # else 
 #end
 #end
-    
-    
-    
     #binding.pry
+  end
+  
+  def brand
+    @brand
+    BRANDS.uniq
   end
   
 
