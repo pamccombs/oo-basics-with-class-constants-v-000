@@ -11,7 +11,7 @@ class Shoe
     
     @brand = brand
     
-    BRANDS << brand
+    BRANDS << @brand
     
     #binding.pry
   end
